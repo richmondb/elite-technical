@@ -31,7 +31,7 @@ jobs:
         run: bun install
 
       - name: Build application
-        run: bun --bun run build
+        run: bun run build
 
       - name: Deploy to NuxtHub
         uses: nuxt-hub/action@v1
