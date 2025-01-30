@@ -16,4 +16,11 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
+  nitro:{
+    output:{
+      dir: "dist",
+      publicDir: "dist/public",
+      serverDir: "dist/server",
+    }
+  }
 });
