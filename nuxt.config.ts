@@ -15,12 +15,5 @@ export default defineNuxtConfig({
       name: "page",
       mode: "out-in",
     },
-  },
-  nitro:{
-    output:{
-      dir: "dist",
-      publicDir: "dist/public",
-      serverDir: "dist/server",
-    }
   }
 });
