@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div class="w-full text-center py-4">
+  <div class="h-full w-full">
+    <div class="text-center py-4">
       <h1 class="text-3xl italic font-thin underline underline-offset-8">Join Other Coding Communities</h1>
     </div>
-    <div class=" mx-auto">
-      <ul class="space-y-4">
+    <div>
+      <ul class="space-y-4 max-w-4xl mx-auto">
         <li v-for="(community, index) in codingCommunities" :key="index" class="transition-none bg-white/30 dark:bg-gray-800/30 backdrop-blur-lg p-4 rounded-lg shadow">
           <a :href="community.url" target="_blank" class="text-lg font-semibold underline underline-offset-2">
             {{ community.name }}

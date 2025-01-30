@@ -19,7 +19,7 @@ const testimonials = [
 </script>
 
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full ">
     <div class="w-full text-center py-4">
       <h1 class="text-3xl italic font-thin underline underline-offset-8">Testimonials</h1>
     </div>

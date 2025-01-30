@@ -26,6 +26,7 @@ body {
 main{
     /*Allow the main to grow*/
     flex: 1;
+    height: auto;
 }
 
 footer{

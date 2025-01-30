@@ -49,7 +49,7 @@
 <template>
   <div
     id="features"
-    class="features relative w-full h-screen min-h-max max-h-[1200px]">
+    class="features relative w-full h-full min-h-max max-h-fit ">
     <div class="text-center space-y-3 ">
       <hr class="border-gray-800" >
       <h1 class="text-4xl md:text-5xl font-thin">Features</h1>

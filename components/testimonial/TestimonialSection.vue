@@ -17,7 +17,6 @@
 
 <template>
   <section>
-
     <div class="flex flex-col items-center w-full p-3 lg:h-full">
       <blockquote class="max-w-2xl text-base italic text-center text-pretty">
         <p>{{ props.quote }}</p>

@@ -47,11 +47,11 @@
     <div class="pt-16 h-full flex-1">
       <div class="w-full h-full flex justify-center">
         <div
-          class="hero-main relative p-6 pb-0 w-[70rem] h-auto md:h-[42rem] bg-white/10 backdrop-blur rounded-t-2xl border-t border-x border-black/15 dark:border-red-300/15">
+          class="hero-main relative p-6 pb-0 w-[70rem] h-auto lg:h-[42rem] bg-white/10 backdrop-blur rounded-t-2xl border-t border-x border-black/15 dark:border-red-300/15">
           <div
             class="absolute inset-3 !bottom-0 bg-gradient-to-b from-blue-50/10 to-blue-700/10 rounded-t-2xl -z-10 border-t border-x border-blue-800/15 dark:border-blue-300/15"/>
           <div
-            class="hero-main-content z-10 h-full rounded-t-2xl bg-white/20 dark:bg-black/30 backdrop-blur p-2 transition duration-150 border-none">
+            class="hero-main-content  z-10 h-full rounded-t-2xl bg-white/20 dark:bg-black/30 backdrop-blur p-2 transition duration-150 border-none">
             <div class="flex flex-col items-center h-full">
               <div>
                 <button
@@ -61,11 +61,13 @@
                 </button>
               </div>
               <hr >
-              <Transition
-                mode="out-in"
-                name="fade">
-                <component :is="activeComponent" />
-              </Transition>
+              <div class=" w-full h-full overflow-hidden">
+                <Transition
+                  mode="out-in"
+                  name="fade">
+                  <component :is="activeComponent" />
+                </Transition>
+              </div>
             </div>
           </div>
         </div>
