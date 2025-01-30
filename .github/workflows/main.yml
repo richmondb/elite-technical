@@ -2,6 +2,7 @@ name: Deploy to NuxtHub
 on: push
 
 jobs:
+
   deploy:
     name: "Deploy to NuxtHub"
     runs-on: ubuntu-latest
@@ -13,7 +14,8 @@ jobs:
       id-token: write
 
     steps:
-      - uses: oven-sh/setup-bun@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Install bun
         uses: oven-sh/setup-bun@v2
@@ -29,7 +31,7 @@ jobs:
         run: bun install
 
       - name: Build application
-        run: bun build
+        run: bun --bun run build
 
       - name: Deploy to NuxtHub
         uses: nuxt-hub/action@v1
