@@ -9,10 +9,10 @@
 </script>
 
 <template>
-  <header class="sticky w-full top-0 z-50 py-4 bg-white/05 backdrop-blur-md">
-    <nav class="container mx-auto flex gap-4 items-center px-8 sm:p-0">
+  <header class="sticky w-full top-0 left-0 right-0 z-50 py-4 bg-white/05 backdrop-blur-md">
+    <nav class="container mx-auto flex gap-4 items-center px-4 sm:p-0">
       <div class="md:mr-16">
-        <h1 class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-800">
+        <h1 class="text-2xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-800">
           GlanceWire
         </h1>
       </div>
@@ -35,7 +35,7 @@
         </NuxtLink>
       </div>
       <div class="grow w-full flex items-end justify-end">
-        <div class="flex items-center gap-6">
+        <div class="flex items-center gap-2 sm:gap-4">
           <ThemeColorChange />
           <DropdownMenu class="sm:hidden" />
         </div>
