@@ -1,4 +1,12 @@
 <script setup lang="ts">
+
+  // TODO
+  // Reference in AppHeader.vue component
+  // Fix the dropdown menu to show the correct active link,
+  // when the user is on the contact page.
+  // Hint: Use the `isContact` computed property to determine
+  // if the user is on the contact page.
+
   const items = [
     [
       {
@@ -9,7 +17,7 @@
     [
       {
         label: 'Features',
-        to: "#features",
+        to: "/#features",
       },
     ],
     [

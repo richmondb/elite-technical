@@ -1,6 +1,7 @@
 <script lang="ts" setup>
   const router = useRoute();
 
+  // so we can keep track of the current route. Might refactor this later
   const isContact = computed(() => router.path === '/contact');
 
   const isInContact = ref(isContact);
