@@ -19,14 +19,14 @@
         <h1 class="text-5xl md:text-8xl"
           >{{ actionLineOne }}
           <span
-            class="text-transparent bg-clip-text bg-gradient-to-r from-blue-100 to-blue-600 hover:cursor-pointer select-none"
+            class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-900 dark:from-blue-100 dark:to-blue-600 hover:cursor-pointer select-none"
             >Code</span
           >
         </h1>
         <h1 class="text-4xl md:text-7xl"
           >Find your
           <span
-            class="text-transparent bg-clip-text bg-gradient-to-l from-red-100 to-red-600 hover:cursor-pointer select-none"
+            class="text-transparent bg-clip-text bg-gradient-to-l from-red-400 to-red-900 dark:from-red-100 dark:to-red-600 hover:cursor-pointer select-none"
             >Sparks.</span
           >
         </h1>
